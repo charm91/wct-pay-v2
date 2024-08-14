@@ -7,10 +7,10 @@
             <h2 class="hero-title">
               <slot name="title"></slot>
             </h2>
-            <p class="text-xl leading-8 font-normal">
+            <p class="text-xl leading-8 font-normal" style="margin-bottom: 20px;">
               <slot name="subtitle"></slot>
             </p>
-            <Button class="font-semibold">Enquire Now</Button>
+            <Button class="py-4 px-12 text-[18px]">Enquire Now</Button>
           </div>
         </div>
         <div class="col-span-12 md:col-span-6 relative overflow-hidden">

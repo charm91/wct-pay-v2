@@ -15,7 +15,7 @@
 
       <div class="md:flex hidden gap-4 items-center">
         <a href="#" class="mx-4">Login</a>
-        <Button> Get Started </Button>
+        <Button class="px-6 py-2"> Get Started </Button>
       </div>
       <button @click="toggleMenu" class="md:hidden flex items-center">
         <svg
