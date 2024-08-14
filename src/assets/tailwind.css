@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .container {
+    @apply px-4 lg:px-8;
+  }
+
+  .bg-primary-gradient {
+    @apply bg-gradient-to-r from-[#282879] via-[#0f2667] to-[#282879];
+  }
+
+  .hero-title {
+    @apply text-[30px] md:text-[40px] lg:text-[60px] font-medium leading-[60px] lg:leading-[72px] tracking-tight;
+  }
+
+  .section-title {
+    @apply text-[20px] md:text-[20px] lg:text-[40px] font-extrabold text-[#414042];
+  }
+
+  .section-subtitle {
+    @apply text-gray-500 text-base;
+  }
+
+  .text-body {
+    @apply text-gray-500 font-medium;
+  }
+
+  .card {
+    @apply rounded-3xl p-[60px] shadow-custom-blue;
+  }
+}
